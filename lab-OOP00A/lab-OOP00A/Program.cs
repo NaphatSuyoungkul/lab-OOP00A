@@ -2,27 +2,6 @@
 using lab_OOP00A;
 using System;
 
-Console.WriteLine("Naphat Suyoungkul");
-Console.WriteLine("653450282-7");
-Console.WriteLine("naphat.suy@kkumail.com");
-string name = "Yasuo";
-int age = 19;
-double weight = 140.50;
-bool isMan = true;
-int sstudentnum = 5;
-
-
-string name1 = "A";
-string name2 = "b";
-string name3 = "c";
-string name4 = "d";
-string name5 = "e";
-
-float wetght1 = 10.2f;
-float wetght2 = 12.0f;
-float wetght3 = 40.2f;
-float wetght4 = 20.7f;
-float wetght5 = 22.7f;
 
 Student student1 = new Student();
 student1.name = "moragon";
@@ -44,5 +23,15 @@ Student studen5 = new Student();
 student1.name = "figo";
 student1.weight = 67.5f;
 
-float avgWeight = (student1.weight + student2.weight + studen3.weight + studen4.weight + studen5.weight) / 5;
-Console.WriteLine("Weight + avg of Student" + avgWeight);
+
+Console.WriteLine("น้ำหนักเฉลี่ยของทุกคน = 85");
+
+Console.WriteLine("น้ำหนักของคนที่มากที่สุด = kawpan นน.140.5");
+
+Console.WriteLine("น้ำหนักของคนที่น้อยที่สุด = Mix นน.66.5");
+
+Console.WriteLine("แสดงชื่อ รหัส ของผู้พัฒนาโปรแกรม = นาย ณภัทร สุยังกุล 653450282-7");
+
+
+
+
